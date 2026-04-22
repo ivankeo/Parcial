@@ -1,0 +1,293 @@
+@font-face {
+    font-family: AutourOne;
+    src: url(Fonts/AutourOne-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-attachment: fixed;
+    font-family: Autour One;
+}
+
+.Botonera{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     padding-top: 10px ;
+}
+
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#000000;
+    width: 80%;
+    max-width: 1000px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 4px 15px #0e0e0e;
+}
+
+.Botones{
+    display: flex;
+    gap: 15px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.Botones a {
+    background-color: #1a1a1a;
+    color: white !important;
+    text-decoration: none !important;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 17px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.Botones a:hover{
+    background-color: #0BD415;
+    color: black !important;
+}
+
+.Logo{
+    background-color: #1a1a1a;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 12px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0  ;
+  }
+
+.Logo:hover{
+    background-color: #0BD415;
+}
+
+.Logo-Ks{
+    width: 90% !important;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    filter: brightness(1);
+    transition: 0.3 ease;
+}
+
+.Logo:hover .Logo-Ks {
+    filter: invert(1);
+}
+
+.father-car{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.main-screen{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 2px solid #1a1a1a;
+    background-color: #000;
+    overflow: hidden;
+    box-shadow: 0 10px 30px #0e0e0e;
+    padding: 40px;
+}
+.main-screen .carousel-item {
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    display: block;
+    background-color: #000;
+}
+
+.main-screen .carousel-item img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    object-fit: contain;
+    background-color: #000;
+    display: block;
+}
+
+.father-desc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.description{
+    width: 80%;
+    max-width: 1000px;
+    background-color: #000;
+    border: 2px solid #1a1a1a;
+    border-radius: 30px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 30px #0e0e0e;
+    color: white;
+}
+
+.description h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.description p{
+    font-size: 1.1rem;
+    color: white;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.Yo{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fila{
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.black-box{
+    background-color: #000;
+    border: 2px solid #1a1a1a;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 10px 30px #0e0e0e;
+}
+
+.pic-mias{
+    flex: 1;
+}
+
+.info-mia{
+    flex: 1.5;
+}
+
+.black-box h2{
+    color: white;
+    font-family: Autour one;
+    margin-bottom: 15px;
+}
+
+.black-box h3{
+    color: white;
+    font-family: Autour One;
+    margin-bottom: 15px;
+}
+
+.black-box p{
+    color: #bababa;
+    font-family: Helvetica;
+    margin-bottom: 15px;
+}
+
+.cinta{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;    
+    align-items: center;
+}
+
+.icons img{
+    height: 50px;
+    width: auto;
+    border-radius: 7px;
+    display: block;
+}
+
+.pic-mias .carousel-inner{
+    border-radius: 15px;
+    overflow: hidden;
+    min-height: 350px;
+    height: 100%;
+}
+
+.pic-mias img{
+    height: 350px;
+    object-fit: cover;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.contact-here{
+    width: auto;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.contact-here h3{
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Autour One;
+}
+
+.cajas-grandes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.box-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    height: 280px;
+}
+
+.box-social.centering{
+    height: 200px;
+}
+
+.box-social a img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 10px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.box-social a:hover img{
+    filter: drop-shadow(0 0 10px #0bd415);
+    transform: scale(1.1);
+}
