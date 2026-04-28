@@ -1,70 +1,143 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="es">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-
+    <title>Mis Trabajos | Keough Studios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <header class="Botonera">
-        <nav class="Menu">
-            <a href="index.html" class="Logo">
-                <img src="Img/Logo-Ks.png" alt="Logo-Ks" class="Logo-Ks">
-            </a>
-            <div class="Botones">
-                <a href="yo.html" class="Acerca-de-mi">Acerca de Mi</a>
-                <a href="trabajos.html" class="Mis-trabajos">Mis Trabajos</a>
-                <a href="cv.html" class="Mi-cv">Mi Cv</a>
-                <a href="contacto.html" class="Mis-contactos">Mis Contactos</a>
+        <nav class="navbar navbar-expand-lg Menu">
+            <div class="container-fluid">
+                <a href="index.html" class="Logo">
+                    <img src="Img/Logo-Ks.png" alt="Logo-Ks" class="Logo-Ks">
+                </a>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav Botones">
+                        <a href="yo.html" class="Acerca-de-mi">Acerca de Mi</a>
+                        <a href="trabajos.html" class="Mis-trabajos active">Mis Trabajos</a>
+                        <a href="cv.html" class="Mi-cv">Mi Cv</a>
+                        <a href="contacto.html" class="Mis-contactos">Mis Contactos</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-<main class="father-car">
-  <div id="diapositivas" class="carousel slide carousel-fade main-screen" data-bs-ride="carousel" data-bs-interval="3500">
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="Img/Carousel/img 1.jpeg" class="d-block w-100" alt="Img1">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 2.jpeg" class="d-block w-100" alt="Img2">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 3.jpeg" class="d-block w-100" alt="Img3">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 4.jpeg" class="d-block w-100" alt="Img4">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 7.jpeg" class="d-block w-100" alt="Img7">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 8.jpeg" class="d-block w-100" alt="Img8">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 9.jpeg" class="d-block w-100" alt="Img9">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 10.jpeg" class="d-block w-100" alt="Img10">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 11.jpeg" class="d-block w-100" alt="Img11">
-    </div>
-    <div class="carousel-item">
-        <img src="Img/Carousel/img 12.jpeg" class="d-block w-100" alt="Img12">
-    </div>
-    </div>
-  </div>
-</main>
-<section class="father-desc">
-  <div class="description">
-    <h3>Hola, Mi nombre es Ivan</h3>
-    <p>Estudio Diseño Multimedial y me especializo en la creación de entornos y personajes en 3D. También trabajo con VFX, edición de video e imagen, y diseño de piezas visuales.</p>
-  </div>
-</section>
-    
-  </body>
+
+   <main class="mis-trabajos">
+        <section class="fila-tps">
+            <div class="col-tex">
+                <article class="black-box programa">
+                    <p>Blender</p>
+                    <p>Premiere Pro</p>
+                </article>
+                <div class="black-box box-tp">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/MolKZczpEf4" title="Keough Studios Intro" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <article class="black-box desc-tp">
+                <p>Este proyecto personal es una introducción que decidí crear para mis futuros proyectos audiovisuales, colocándolo al inicio de cada video.</p>
+            </article>
+        </section>
+
+        <section class="fila-tps-inv">
+            <div class="col-tex">
+                <div class="black-box box-tp">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/528vkNPnwBo" title="FNAF Animation" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <article class="black-box programa">
+                    <p>Blender</p>
+                    <p>Premiere Pro</p>
+                </article>
+            </div>
+            <article class="black-box desc-tp">
+                <p>Este proyecto fue propuesto en la clase de Animación 2D y 3D. El fin era crear un espacio cerrado para luego realizar una animación. Tomé inspiración en el juego Five Nights at Freddy's recreando la pizzería del 1er juego.</p>
+            </article>
+        </section>
+
+        <section class="fila-tps">
+            <div class="col-tex">
+                <article class="black-box programa">
+                    <p>Premiere Pro</p>
+                </article>
+                <div class="black-box box-tp">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/m6iRzqXdGzs" title="Cortometraje Acecho" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <article class="black-box desc-tp">
+                <p>Trabajo para la clase de Prácticas Profesionalizantes. Cortometraje de suspenso/thriller llevado a cabo en equipo, donde desempeñamos distintos roles de producción y post-producción.</p>
+            </article>
+        </section>
+
+        <section class="fila-tps-inv">
+            <div class="col-tex">
+                <div class="black-box box-tp">
+                    <div id="carousel-tp4" class="carousel slide"> 
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="Img/Trabajos/relojeria1.jpg" class="d-block w-100" alt="Foto 1"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/relojeria2.jpeg" class="d-block w-100" alt="Foto 2"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/relojeria3.jpg" class="d-block w-100" alt="Foto 3"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/relojeria5.jpg" class="d-block w-100" alt="Foto 4"></div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-tp4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-tp4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+                <article class="black-box programa">
+                    <p>Lightroom</p>
+                    <p>Photoshop</p>
+                </article>
+            </div>
+            <article class="black-box desc-tp">
+                <p>Trabajo realizado para la relojería y joyería "Suiza", realizando flyers y tratamiento de fotos para redes sociales.</p>
+            </article>
+        </section>
+
+        <section class="fila-tps">
+            <div class="col-tex">
+                <article class="black-box programa">
+                    <p>Lightroom</p>
+                </article>
+                <div class="black-box box-tp">
+                    <div id="carouselTrabajo5" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"><img src="Img/Trabajos/tp5-1.jpeg" class="d-block w-100" alt="Slide 1"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/tp5-2.jpeg" class="d-block w-100" alt="Slide 2"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/tp5-3.jpeg" class="d-block w-100" alt="Slide 3"></div>
+                            <div class="carousel-item"><img src="Img/Trabajos/tp5-4.jpeg" class="d-block w-100" alt="Slide 4"></div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrabajo5" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTrabajo5" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <article class="black-box desc-tp">
+                <p>Propuesta de la clase de Fotografía: capturar imágenes con foco específico y esencia de estructuras, luego tratarlas en Adobe Lightroom.</p>
+            </article>
+        </section>
+    </main>
+</body>
 </html>
